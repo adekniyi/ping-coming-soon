@@ -24,8 +24,12 @@
     <div class="firstcont">
       <h2>We are launching <span>soon!</span></h2>
       <p>Subscribe and get notified</p>
-      <input type="email" placeholder="Your Email Address" name="email" id="email" required> <input type="submit" value="Notify Me">
-    </div>
+      <form action="" id="form">
+        <input type="email" placeholder="Your Email Address" name="email" id="email" required>
+        <input type="submit" value="Notify Me">
+        <p id="email_error"></p>
+      </form>
+   </div>
     <div class="image">
       <img src="./images/illustration-dashboard.png" alt="">
     </div>
@@ -46,5 +50,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  <script src="app.js"></script>
 </body>
 </html>

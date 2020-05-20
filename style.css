@@ -81,7 +81,10 @@ input[type="email"]::placeholder{
     background-color: white;
     color: blue;
 }
-
+#email_error{
+    color: red;
+    /* text-align:left; */
+}
 
 @media only screen and (max-width: 450px) {
     span{
