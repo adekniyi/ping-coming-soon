@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.wrapper{
+    margin-top: 40px;
+}
+.img{
+    width: 5%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.img img{
+    width: 100%;
+    margin: 0 auto;
+}
+.firstcont{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+span{
+    font-weight: 700;
+    font-size: 3rem!important;
+    color: black!important;
+}
+
+.firstcont h2{
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 0.3rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.firstcont p{
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+input[type="email"]{
+    width: 23%;
+    height: 35px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 30px;
+}
+input[type="submit"]{
+    width: 11%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    box-shadow: 0.5px 4px 2px 2px hsl(223, 100%, 88%);
+    font-weight: 700;
+
+}
+input[type="email"]::placeholder{
+   padding-left: 1rem;
+   color: hsl(223, 100%, 88%);
+   font-weight: 300;
+}
+
+.image{
+    width: 50%;
+    margin: 0 auto;
+}
+.image img{
+    width: 100%;
+    margin: 0 auto;
+}
+.footer{
+    text-align: center;
+}
+
+
+.socailmedia img{
+    /* padding-right: 2rem; */
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: white;
+    color: blue;
+}
+
+
+@media only screen and (max-width: 450px) {
+    span{
+        font-weight: 700;
+        font-size: 1.5rem!important;
+        color: black!important;
+    }
+    /* .img img{
+        width: 100%;
+    } */
+    .firstcont h2{
+        letter-spacing: 0;
+        font-size: 1.5rem;
+    }
+    .firstcont{
+        width: 90%;
+        margin: 0 auto;
+    }
+    input[type="email"]{
+        width: 80%;
+        margin-bottom: 0.7rem;
+    }
+    input[type="submit"]{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .image{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .image img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .img{
+        width: 15%;
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+}
